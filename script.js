@@ -42,7 +42,7 @@ function initMap() {
 
         // マーカーのクリック処理
         marker.addListener('click', function() {
-            window.open(markerData[i].page, '_blank');
+            window.location.href = markerData[i].page;
         });
     }
 }
